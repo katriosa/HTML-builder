@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require("path");
 const dirPath = path.join(__dirname, "secret-folder");
   
-// Читаем католог
+// Читаем каталог
 fs.readdir(dirPath, { withFileTypes: true }, (err, files) => { 
   if (err) 
     console.log(err); 
